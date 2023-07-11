@@ -1,0 +1,27 @@
+{
+  "properties": {
+    "relativePath": "resources/2023052409-dbf75d2b-dea9-4341-9a7e-dcc22aa4247a",
+    "builder": "/subscriptions/0753feba-86f1-4242-aff1-27938fb04531/resourceGroups/liyitest/providers/Microsoft.AppPlatform/Spring/liyitest-build/buildservices/default/builders/default",
+    "agentPool": "/subscriptions/0753feba-86f1-4242-aff1-27938fb04531/resourceGroups/liyitest/providers/Microsoft.AppPlatform/Spring/liyitest-build/buildservices/default/agentPools/default",
+    "apms": [
+      {
+        "resourceId": "/subscriptions/0753feba-86f1-4242-aff1-27938fb04531/resourceGroups/liyitest/providers/Microsoft.AppPlatform/Spring/liyitest-build/apms/default"
+      },
+      {
+        "resourceId": "/subscriptions/0753feba-86f1-4242-aff1-27938fb04531/resourceGroups/liyitest/providers/Microsoft.AppPlatform/Spring/liyitest-build/apms/newrelic"
+      }
+    ],
+    "certificates": [
+      {
+        "resourceId": "/subscriptions/0753feba-86f1-4242-aff1-27938fb04531/resourceGroups/liyitest/providers/Microsoft.AppPlatform/Spring/liyitest-build/certificates/cert-1"
+      },
+      {
+        "resourceId": "/subscriptions/0753feba-86f1-4242-aff1-27938fb04531/resourceGroups/liyitest/providers/Microsoft.AppPlatform/Spring/liyitest-build/certificates/cert-2"
+      }
+    ],
+    "resourceRequests": {
+      "cpu": "1",
+      "memory": "2Gi"
+    }
+  }
+}
