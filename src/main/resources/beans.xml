@@ -28,11 +28,11 @@
   </bean>
 
   <!-- Data Source configuration -->
-   <bean id="dataSource"
+  <bean id="dataSource"
         class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"
         p:driverClassName="com.mysql.jdbc.Driver"
-        p:url="${spring.datasource.url}" p:username="${spring.datasource.username}"
-        p:password="${spring.datasource.password}" />
+        p:url="#{ systemEnvironment['spring.datasource.url']}" p:username="#{ systemEnvironment['spring.datasource.username']}"
+        p:password="#{ systemEnvironment['spring.datasource.password']}" />
 
   <!-- Configure hibernate session factory -->
   <bean id="sessionFactory"
